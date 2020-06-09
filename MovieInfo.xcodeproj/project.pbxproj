@@ -13,6 +13,7 @@
 		251A51B5248F3ECA00F900CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251A51B4248F3ECA00F900CB /* Preview Assets.xcassets */; };
 		251A51B8248F3ECA00F900CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251A51B6248F3ECA00F900CB /* LaunchScreen.storyboard */; };
 		251A51C3248F3ECA00F900CB /* MovieInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251A51C2248F3ECA00F900CB /* MovieInfoTests.swift */; };
+		25A912DB248F4C1B0062D638 /* SwiftUICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A912DA248F4C1B0062D638 /* SwiftUICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		251A51BE248F3ECA00F900CB /* MovieInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		251A51C2248F3ECA00F900CB /* MovieInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoTests.swift; sourceTree = "<group>"; };
 		251A51C4248F3ECA00F900CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A912DA248F4C1B0062D638 /* SwiftUICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				251A51B9248F3ECA00F900CB /* Info.plist */,
 				251A51CD248F3FC700F900CB /* App */,
 				251A51CE248F3FD300F900CB /* View */,
+				25A912D9248F4BFE0062D638 /* Helper */,
 				251A51B3248F3ECA00F900CB /* Assets */,
 			);
 			path = MovieInfo;
@@ -126,6 +129,14 @@
 				251A51B6248F3ECA00F900CB /* LaunchScreen.storyboard */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		25A912D9248F4BFE0062D638 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				25A912DA248F4C1B0062D638 /* SwiftUICollectionView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				251A51B0248F3EC800F900CB /* HomeView.swift in Sources */,
+				25A912DB248F4C1B0062D638 /* SwiftUICollectionView.swift in Sources */,
 				251A51AE248F3EC800F900CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
