@@ -77,22 +77,21 @@
 		251A51AC248F3EC800F900CB /* MovieInfo */ = {
 			isa = PBXGroup;
 			children = (
-				251A51AD248F3EC800F900CB /* AppDelegate.swift */,
-				251A51AF248F3EC800F900CB /* ContentView.swift */,
-				251A51B1248F3ECA00F900CB /* Assets.xcassets */,
-				251A51B6248F3ECA00F900CB /* LaunchScreen.storyboard */,
 				251A51B9248F3ECA00F900CB /* Info.plist */,
-				251A51B3248F3ECA00F900CB /* Preview Content */,
+				251A51CD248F3FC700F900CB /* App */,
+				251A51CE248F3FD300F900CB /* View */,
+				251A51B3248F3ECA00F900CB /* Assets */,
 			);
 			path = MovieInfo;
 			sourceTree = "<group>";
 		};
-		251A51B3248F3ECA00F900CB /* Preview Content */ = {
+		251A51B3248F3ECA00F900CB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				251A51B1248F3ECA00F900CB /* Assets.xcassets */,
 				251A51B4248F3ECA00F900CB /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		251A51C1248F3ECA00F900CB /* MovieInfoTests */ = {
@@ -102,6 +101,23 @@
 				251A51C4248F3ECA00F900CB /* Info.plist */,
 			);
 			path = MovieInfoTests;
+			sourceTree = "<group>";
+		};
+		251A51CD248F3FC700F900CB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				251A51AD248F3EC800F900CB /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		251A51CE248F3FD300F900CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				251A51AF248F3EC800F900CB /* ContentView.swift */,
+				251A51B6248F3ECA00F900CB /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
